@@ -12,7 +12,7 @@
                 </el-table-column>
                 <el-table-column prop="date" label="应缴纳日期" align="center" width="200" :formatter="dateFormat">
                 </el-table-column>
-                <el-table-column prop="payDate" label="实际缴纳日期" align="center" width="200" :formatter="dateFormat">
+                <el-table-column prop="paydate" label="实际缴纳日期" align="center" width="200" :formatter="dateFormat">
                 </el-table-column>
                 <el-table-column prop="status" label="状态" align="center">
                 </el-table-column>

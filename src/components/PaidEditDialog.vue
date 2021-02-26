@@ -99,7 +99,7 @@ export default {
                         price:this.formData.price,
                         date:this.formData.date,
                         status:this.formData.status, 
-                        payDate:this.formData.paydate, 
+                        paydate:this.formData.paydate,
                     }
                     
                     paidApi.updatePaid(pojo).then(res =>{
